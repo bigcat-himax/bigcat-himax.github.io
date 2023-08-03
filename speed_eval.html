@@ -6,16 +6,16 @@
 -->
 <html>
 	<head>
-		<title>WiseEye by Himax</title>
+		<title>Speed evalutation - WiseEye by Himax</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	<body>
+	<body class="subpage">
 
 		<!-- Header -->
-			<header id="header">
-				<div class="logo"><a href="index.html">WiseEye <span>by Himax</span></a></div>
+			<header id="header" class="alt">
+				<div class="logo"><a href="index.html">WiseEye<span>by Himax</span></a></div>
 				<a href="#menu"><span>Menu</span></a>
 			</header>
 
@@ -28,83 +28,53 @@
 				</ul>
 			</nav>
 
-		<!-- Banner -->
+		<!-- Content -->
 		<!--
 			Note: To show a background image, set the "data-bg" attribute below
 			to the full filename of your image. This is used in each section to set
 			the background image.
 		-->
-			<section id="banner" class="bg-img" data-bg="banner.jpg">
-				<div class="inner">
-					<header>
-						<h1>WiseEye2</h1>
-					</header>
-				</div>
-				<a href="#one" class="more">Learn More</a>
-			</section>
-
-		<!-- One -->
-			<section id="one" class="wrapper post bg-img" data-bg="banner2.jpg">
+			<section id="post" class="wrapper bg-img" data-bg="banner2.jpg">
 				<div class="inner">
 					<article class="box">
 						<header>
-							<h2>Ultra low Power</h2>
+							<h2>Facial landmark</h2>
+							<p>12 FPS</p>
 						</header>
-						<div class="content">
-							<p>DRAM-less, ones-to-tens mill-watt AI processors to perform real time analytics in the endpoint itself. Designed to enable battery-powered intelligence vision, voice, and vibration applications.</p>
-						</div>
 
-					</article>
-				</div>
-				<a href="#two" class="more">Learn More</a>
-			</section>
-
-		<!-- Two -->
-			<section id="two" class="wrapper post bg-img" data-bg="banner5.jpg">
-				<div class="inner">
-					<article class="box">
-						<header>
-							<h2>Faster Than Ever</h2>
-						</header>
 						<div class="content">
-							<p>provides up to 50 GOPS with asymmetric multiprocessing architecture. Easy software flow for embedded and ML.</p>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/YwPNTRv--dM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+							<p>During the example, multiple faces will be recognized with yellow rectangle bounded.</p>
+
+							<p>Facial landmark will be inferenced at largest face rectangle. Besides landmark itself, yaw, pitch and roll of the face will also be extract with color line indicated.</p>
+
+							<p>Statistics of Eye Aspect Ratio provides more information about eyes-open and eyes-closed of the face, which is an extra metadata for your variant judge.</p>
 						</div>
 						<footer>
-							<a href="speed_eval.html" class="button alt">Learn More</a>
+							<ul class="actions">
+								<li><a href="#" class="button alt icon fa-chevron-left"><span class="label">Previous</span></a></li>
+								<li><a href="#" class="button alt icon fa-chevron-right"><span class="label">Next</span></a></li>
+							</ul>
 						</footer>
-					</article>
-				</div>
-				<a href="#three" class="more">Learn More</a>
-			</section>
 
-		<!-- Three -->
-			<section id="three" class="wrapper post bg-img" data-bg="banner3.jpg">
-				<div class="inner">
-					<article class="box">
 						<header>
-							<h2>Environment Secured</h2>
+							<h2>Human pose</h2>
+							<p>7 FPS</p>
 						</header>
-						<div class="content">
-							<p>Support for ARM TrustZone technology, with CryptoCell-312 crypto engine provieded to secure you private data.</p>
-						</div>
-					</article>
-				</div>
-				<a href="#four" class="more">Learn More</a>
-			</section>
 
-		<!-- Four -->
-			<section id="four" class="wrapper post bg-img" data-bg="banner4.jpg">
-				<div class="inner">
-					<article class="box">
-						<header>
-							<h2>Rich Interfaces</h2>
-						</header>
 						<div class="content">
-							<p>Support different kinds of serial interface, MIPI CSI and SD/SDIO.</p>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/DtxWH9BXyK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+							<p>Pose skeleton will be inference during the example.</p>
 						</div>
 						<footer>
-							<a href="generic.html" class="button alt">Learn More</a>
+							<ul class="actions">
+								<li><a href="#" class="button alt icon fa-chevron-left"><span class="label">Previous</span></a></li>
+								<li><a href="#" class="button alt icon fa-chevron-right"><span class="label">Next</span></a></li>
+							</ul>
 						</footer>
+						
 					</article>
 				</div>
 			</section>
